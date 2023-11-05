@@ -9,15 +9,11 @@ This is a Meteor 2.9 application that illustrates:
   * Alerts regarding success or failure of DB updates using [Sweet Alert](https://sweetalert.js.org/).
   * Quality assurance using [ESLint](http://eslint.org) with packages to partially enforce the [Meteor Coding Standards](https://guide.meteor.com/code-style.html) and the [AirBnB Javascript Style Guide](https://github.com/airbnb/javascript).
 
-The goal of this template is to help you get quickly started doing Meteor development by providing a reasonable directory structure for development and deployment, a set of common extensions to the core framework, and boilerplate code to implement basic page display, navigation, forms, roles, and collection manipulation.
+The goal of this project is improve the searching effectiveness of the University of Hawaii's Ask Us search engine, which takes in user queries and attempts to return a list of IT-related articles that may help the users resolve their IT issues. We will be attempting to implement an AI search engine which will hopefully alleviate the need to contact the IT help desk.
 
-To keep this codebase simple and small, some important capabilities are intentionally excluded from this template:
+We want this AI search engine to be able to to respond to queries as helpfully as possible. This means being able to ask follow-up questions to unclear queries and being conversational.
 
-  * Unit Testing.
-  * Security (meteor-application-template-react enables the insecure packages)
-  * Deployment
-
-Examples of the these capabilities will be provided elsewhere.
+We plan on providing the interface for all users at the landing page, but also want to provide login capabilities in order for the AI to be able to store previous chat sessions.
 
 ## Installation
 
@@ -170,4 +166,4 @@ It's significantly easier to do development with ESLint integrated directly into
 
 ### Team Members
 
-This application is designed, implemented, and maintained by [James Ligeralde](https://https://jligeral.github.io/), [Frances Michelle Uy](https://https://frances-uy.github.io/), [Jonathan Sapolu](https://https://jsapolu99.github.io/) and [Michelle Ho](https://https://michho8.github.io/).
+This application is designed, implemented, and maintained by [James Ligeralde](https://jligeral.github.io/), [Frances Michelle Uy](https://frances-uy.github.io/), [Jonathan Sapolu](https://jsapolu99.github.io/) and [Michelle Ho](https://michho8.github.io/).
