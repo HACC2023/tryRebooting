@@ -1,4 +1,4 @@
-[# tryRebooting](https://hacc2023.github.io/tryRebooting/)
+# [tryRebooting](https://hacc2023.github.io/tryRebooting/)
 
 ## Deployment
 
