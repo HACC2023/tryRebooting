@@ -67,29 +67,13 @@ meteor npm run lint
 
 ## Walkthrough
 
-The following sections describe the major features of this template.
-
-### Directory structure
-
-The top-level directory structure is:
-
-```
-.github     # holds the GitHub Continuous Integration action and Issue template.
-app/        # holds the Meteor application sources
-config/     # holds configuration files, such as settings.development.json
-doc/        # holds developer documentation, user guides, etc.
-.gitignore  # don't commit IntelliJ project files, node_modules, and settings.production.json
-```
-
-### Import conventions
-
-This system adheres to the Meteor guideline of putting all application code in the imports/ directory, and using client/main.js and server/main.js to import the code appropriate for the client and server in an appropriate order.
-
 #### Landing page
 
 When you retrieve the app at http://localhost:3000, this is what should be displayed:
 
-<img src="doc/landing-page.png">
+<img src="doc/landing-page-2.png">
+
+In the inputfield to the left, you can type in your question, and click the search button to send it to the chat AI. After a couple of seconds it will generate a response for you based on a collection of ITS articles and their relevance to your query.
 
 ### CSS
 
@@ -129,7 +113,7 @@ The application allows users to register and create new accounts at any time.
 
 ### Authorization
 
-Only logged in users can manipulate Stuff documents (but any registered user can manipulate any Stuff document, even if they weren't the user that created it.)
+Anyone accessing the page can use Ask Us. We will provide some additional features for logged in users in due time.
 
 ### Configuration
 
@@ -137,7 +121,6 @@ The [config](https://github.com/ics-software-engineering/meteor-application-temp
 
 The [.gitignore](https://github.com/ics-software-engineering/meteor-application-template-react/blob/main/.gitignore) file prevents a file named settings.production.json from being committed to the repository. So, if you are deploying the application, you can put settings in a file named settings.production.json and it will not be committed.
 
-### Development History
 
 ### Quality Assurance
 
