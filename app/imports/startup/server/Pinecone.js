@@ -8,13 +8,13 @@ import { Articles } from '../../api/articles/Articles';
 /* eslint-disable no-console */
 // Initialize Pinecone database
 const pinecone = new Pinecone({
-  apiKey: process.env.PINECONE_API_KEY,
-  environment: process.env.PINECONE_ENVIRONMENT,
+  apiKey: Meteor.settings.pineconeApiKey,
+  environment: Meteor.settings.pineconeEnvironment,
 });
 // Initialize OpenAI Embeddings
 const embeddings = new OpenAIEmbeddings();
 // Initialize Pinecone index
-const index = pinecone.index(process.env.PINECONE_INDEX);
+const index = pinecone.index(Meteor.settings.pineconeIndex);
 // Get Pinecone index stats
 const indexStats = await index.describeIndexStats();
 console.log(`Total vector count: ${indexStats.totalRecordCount}`);

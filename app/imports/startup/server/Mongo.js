@@ -1,4 +1,3 @@
-// import { Meteor } from 'meteor/meteor';
 import { Articles } from '/imports/api/articles/Articles';
 import Papa from 'papaparse';
 
